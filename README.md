@@ -27,6 +27,8 @@ To overcome data fragmentation and statistical instability, the project implemen
 ### Key Findings
 * **Age-Independent Lifestyle Impact:** By grouping lifestyle risks into a robust binary feature, the model cleanly isolated the survival gap between "High" and "Low" risk behaviors, proving that lifestyle impacts survival independently of a patient’s biological age.
 * **Age Baseline Dominance:** Age remains a powerful baseline predictor of overall survival in AML, exhibiting a steady ~3% increase in mortality risk per year of age.
+![Heatmap_plot](./visuals/correlation_heatmap.png)
+![Survival_comparison_plot](./visuals/survival_comparison_plot.png)
 * **Predictive Validation:** The finalized, optimized model achieved a **Concordance Index of 0.67**, demonstrating strong predictive accuracy and reliability for estimating survival probabilities at 1-year, 2-year, and 5-year milestones.
 
 ## Strategic Recommendations
